@@ -1,0 +1,59 @@
+// header
+.header {
+  background: url('/images/banner.png') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  // padding: 308px 0;
+  &-content {
+    max-width: 304px;
+  }
+  &-subtitle {
+    white-space: nowrap;
+  }
+  &-icons li:hover {
+    @include scaleEffect;
+  }
+}
+// about
+.about {
+  padding: 56px 0;
+  &-content {
+    max-width: 384px;
+  }
+  &-info {
+    border-bottom: 1px solid $dark;
+    padding-bottom: 23px;
+  }
+  &-info li {
+    white-space: nowrap;
+    &:nth-child(3) {
+      margin-left: -28px;
+    }
+  }
+  &-exp li i {
+    margin-right: 16px;
+  }
+}
+// brand
+.brand {
+  padding: 56px 0 160px;
+}
+// works
+.work {
+  padding: 56px 0 144px;
+}
+// contact
+.contact {
+  padding: 64px 0;
+  a:hover {
+    color: $danger;
+  }
+}
+// back2top
+.back2top {
+  @include back2topStyle;
+  transform: translateX(40px);
+}
+.active {
+  transform: translateX(-60px);
+}

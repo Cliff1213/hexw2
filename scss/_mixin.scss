@@ -1,0 +1,17 @@
+// hover style
+@mixin scaleEffect {
+  transform: scale(120%);
+  transition: 0.3s;
+}
+// b2t
+@mixin back2topStyle {
+  position: fixed;
+  font-size: 40px;
+  color: $danger;
+  right: 0;
+  bottom: 30px;
+  transition: .5s;
+  &:hover {
+    color: lighten($danger, 15%);
+  }
+}

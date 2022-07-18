@@ -1,0 +1,11 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  // max-width: 100%; // 圖片寬高已符合設計稿
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

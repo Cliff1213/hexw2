@@ -1,0 +1,84 @@
+// utils
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.italic {
+  font-style: italic;
+}
+.medium {
+  font-weight: 500;
+}
+.bold {
+  font-weight: 700;
+}
+.ex-bold {
+  font-weight: 900;
+}
+.fs-1 {
+  font-size: 20px;
+}
+.fs-2 {
+  font-size: 24px;
+}
+.fs-3 {
+  font-size: 64px;
+}
+.fs-4 {
+  font-size: 80px;
+}
+.text-center {
+  text-align: center;
+}
+.text-light {
+  color: $light;
+}
+.text-danger {
+  color: $danger;
+}
+.bg-dark {
+  background: $dark;
+}
+.lh-1 {
+  line-height: 1.3125;
+}
+.lh-2 {
+  line-height: 1.325;
+}
+.lh-3 {
+  line-height: 1.333;
+}
+.lh-4 {
+  line-height: 1.375;
+}
+.lh-5 {
+  line-height: 1.4;
+}
+.lh-6 {
+  line-height: 1.5;
+}
+
+// margin-bottom settings
+@for $i from 1 through 17 {
+  .mb-#{ $i } {
+    margin-bottom: $space * $i;
+  }
+}
