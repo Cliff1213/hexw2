@@ -3,15 +3,12 @@
   background: url('https://raw.githubusercontent.com/Cliff1213/hexw2/master/images/banner.png') no-repeat center;
   background-size: cover;
   height: 100vh;
-  // padding: 308px 0;
-  &-content {
-    max-width: 304px;
-  }
-  &-subtitle {
-    white-space: nowrap;
-  }
-  &-icons li:hover {
-    @include scaleEffect;
+  // padding: 234px 0 308px; // 308px - 74px（span 多出來的行高）
+  &-icons li {
+    margin: 0 8px;
+    &:hover {
+      @include scaleEffect;
+    }
   }
 }
 // about
@@ -20,15 +17,10 @@
   &-content {
     max-width: 384px;
   }
-  &-info {
-    border-bottom: 1px solid $dark;
-    padding-bottom: 23px;
-  }
-  &-info li {
-    white-space: nowrap;
-    &:nth-child(3) {
-      margin-left: -28px;
-    }
+  &-exp {
+    border-top: 1px solid $dark;
+    padding-top: 23px;
+    max-width: 384px;
   }
   &-exp li i {
     margin-right: 16px;
