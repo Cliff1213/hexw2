@@ -13,7 +13,8 @@
 }
 // about
 .about {
-  padding: 56px 0;
+  // padding: 56px 0;
+  margin: 56px 0;
   &-content {
     max-width: 384px;
   }
@@ -32,7 +33,9 @@
 }
 // works
 .work {
-  padding: 56px 0 144px;
+  // padding: 56px 0 144px;
+  margin-top: 56px;
+  margin-bottom: 144px;
 }
 // contact
 .contact {
